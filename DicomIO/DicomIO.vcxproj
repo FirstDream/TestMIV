@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D9456FB5-3A67-4BA8-80E7-92219CC87EA1}</ProjectGuid>
     <Keyword>Qt4VSv1.0</Keyword>
+    <ProjectName>DicomIO</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">

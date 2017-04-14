@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DicomIO", "DicomIO\DicomIO.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestModelView", "TestModelView\TestModelView.vcxproj", "{C7463BFA-1AB0-4FC3-A587-9D9BCAF3D406}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsRenderOpenGL", "GraphicsRenderOpenGL\GraphicsRenderOpenGL.vcxproj", "{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -43,6 +45,10 @@ Global
 		{C7463BFA-1AB0-4FC3-A587-9D9BCAF3D406}.Debug|x64.Build.0 = Debug|x64
 		{C7463BFA-1AB0-4FC3-A587-9D9BCAF3D406}.Release|x64.ActiveCfg = Release|x64
 		{C7463BFA-1AB0-4FC3-A587-9D9BCAF3D406}.Release|x64.Build.0 = Release|x64
+		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}.Debug|x64.ActiveCfg = Debug|x64
+		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}.Debug|x64.Build.0 = Debug|x64
+		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}.Release|x64.ActiveCfg = Release|x64
+		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
