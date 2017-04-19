@@ -4,10 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MedicalImagingViewer", "MedicalImagingViewer\MedicalImagingViewer.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C8A46E9B-71D6-4DC2-93A5-EB8FCC571736} = {C8A46E9B-71D6-4DC2-93A5-EB8FCC571736}
-		{46E656E3-BCF9-48E5-9BF1-36035FAE4B46} = {46E656E3-BCF9-48E5-9BF1-36035FAE4B46}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MivQt", "MivQt\MivQt.vcxproj", "{46E656E3-BCF9-48E5-9BF1-36035FAE4B46}"
 EndProject

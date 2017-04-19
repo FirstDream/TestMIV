@@ -1,7 +1,9 @@
 #include "Scene.h"
 
+#include "Camera.h"
+
 Scene::Scene(QObject *parent)
-	: QObject(parent)
+	: Viewport(parent)
 {
 }
 

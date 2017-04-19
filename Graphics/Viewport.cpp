@@ -2,7 +2,7 @@
 
 
 
-Viewport::Viewport()
+Viewport::Viewport(QObject* parent)
 {
 }
 

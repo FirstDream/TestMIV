@@ -8,9 +8,11 @@ Actor 表示渲染场景(Scene)中的一个实体;
 
 #include <QObject>
 #include <QPointer>
+#include <QSharedPointer>
 
-#include "Transform.h"
 
+class Effect;
+class Transform;
 
 class Actor : public QObject
 {
@@ -20,13 +22,17 @@ public:
 	Actor(QObject *parent);
 	~Actor();
 
-	virtual void render();
+	virtual void render() = 0;
 
-	Transform* getModelTransform() { return this->model_transform_; }
-	void setModelTransform(Transform* trans) { this->model_transform_ = trans; }
+	QSharedPointer<Transform> getTransform() { return this->transform_; }
+	void setTransform(QSharedPointer<Transform> trans) { this->transform_ = trans; }
+
+	void setEffect(QSharedPointer<Transform> effect) { effect_ = effect; }
+
 
 private:
-	QPointer<Transform> model_transform_;
+	QSharedPointer<Transform> transform_;
+	QSharedPointer<Effect> effect_;
 
 };
 

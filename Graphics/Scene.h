@@ -5,12 +5,23 @@
 #pragma once
 
 #include <QObject>
+#include <QPointer>
 
-class Scene : public QObject
+#include "Viewport.h"
+
+class Camera;
+
+class Scene : public Viewport
 {
 	Q_OBJECT
 
 public:
-	Scene(QObject *parent);
+	Scene(QObject *parent = 0);
 	~Scene();
+
+private:
+
+	QPointer<Camera> camera_;
+
+
 };
