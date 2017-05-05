@@ -15,6 +15,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestModelView", "TestModelV
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsRenderOpenGL", "GraphicsRenderOpenGL\GraphicsRenderOpenGL.vcxproj", "{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsRender", "GraphicsRender\GraphicsRender.vcxproj", "{B5424C3F-CAD7-480A-B146-F97F77FFF16B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graphics", "Graphics", "{8F9AFEAA-AB5A-401D-B4B6-DE95D3764BE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IO", "IO", "{9DE0DCEB-0383-423C-B4B4-103F71264726}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -45,8 +51,18 @@ Global
 		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}.Debug|x64.Build.0 = Debug|x64
 		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}.Release|x64.ActiveCfg = Release|x64
 		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00}.Release|x64.Build.0 = Release|x64
+		{B5424C3F-CAD7-480A-B146-F97F77FFF16B}.Debug|x64.ActiveCfg = Debug|x64
+		{B5424C3F-CAD7-480A-B146-F97F77FFF16B}.Debug|x64.Build.0 = Debug|x64
+		{B5424C3F-CAD7-480A-B146-F97F77FFF16B}.Release|x64.ActiveCfg = Release|x64
+		{B5424C3F-CAD7-480A-B146-F97F77FFF16B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8A46E9B-71D6-4DC2-93A5-EB8FCC571736} = {8F9AFEAA-AB5A-401D-B4B6-DE95D3764BE6}
+		{D9456FB5-3A67-4BA8-80E7-92219CC87EA1} = {9DE0DCEB-0383-423C-B4B4-103F71264726}
+		{3BD3ADF7-050A-4CBC-80EA-7F893D57BE00} = {8F9AFEAA-AB5A-401D-B4B6-DE95D3764BE6}
+		{B5424C3F-CAD7-480A-B146-F97F77FFF16B} = {8F9AFEAA-AB5A-401D-B4B6-DE95D3764BE6}
 	EndGlobalSection
 EndGlobal
